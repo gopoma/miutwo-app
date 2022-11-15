@@ -18,6 +18,7 @@ export class UniqueComponent {
     console.log(this.publisher);
     console.log(this.file);
     this.imagesService.uploadImages(this.publisher, this.file);
+
   }
 
   onFilechange(event: any) {
@@ -25,6 +26,6 @@ export class UniqueComponent {
     this.file = event.target.files;
   }
 
-  
+
 
 }
