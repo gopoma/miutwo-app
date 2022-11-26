@@ -8,7 +8,7 @@ import { RESTPhotos } from '../interfaces/images.interface';
 })
 export class ImagesService {
 
-  private baseUrl: string = 'https://miutwo-api-production.up.railway.app/api';
+  private baseUrl: string = 'https://miutwo-api-gopoma.onrender.com/api';
 
   myImages: string[] = [];
 
